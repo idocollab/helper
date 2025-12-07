@@ -3,9 +3,9 @@ def log_setup():
  """
  This function helps creating a look.log file in current directory and a basic template 
  of log structure.
-
+ Note : You must have to import logging in main file.
  """    
- import logging
+ 
  logging.basicConfig(filename="look.log",level=logging.INFO,format="%(asctime)s - %(levelname)s - %(message)s")
 
 
