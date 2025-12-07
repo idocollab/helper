@@ -10,10 +10,10 @@ def log_setup():
 
 
 def get_input(command,data_type=str,error="Wrong Data...",num_check=False):
-     """
+    """
       This function helps taking input with data type mentioned in parameters with handeling all error
        and allow reinput of data.
-     """ 
+    """ 
     
     while True:
      try :
