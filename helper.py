@@ -5,7 +5,7 @@ def log_setup():
  of log structure.
  Note : You must have to import logging in main file.
  """    
- 
+ import logging
  logging.basicConfig(filename="look.log",level=logging.INFO,format="%(asctime)s - %(levelname)s - %(message)s")
 
 
