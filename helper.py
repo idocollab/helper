@@ -5,8 +5,9 @@ def log_setup():
  of log structure.
  Note : You must have to import logging in main file.
  """    
+ file=get_input("Enter Log Filename[Eg:look.log] : ",error="Invalid Filename...").strip().lower()
  import logging
- logging.basicConfig(filename="look.log",level=logging.INFO,format="%(asctime)s - %(levelname)s - %(message)s")
+ logging.basicConfig(filename=file if file.endswith(".log") else "look.log",level=logging.INFO,format="%(asctime)s - %(levelname)s - %(message)s")
 
 
 def get_input(command,data_type=str,error="Wrong Data...",num_check=False):
