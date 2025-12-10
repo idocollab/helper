@@ -96,9 +96,9 @@ Usage:
 
 # Developer & Contact
 This module will be continuously updated. For latest resources and updates:
-**
+
 Instagram: @idocollab<br>
 Email: shivampy.dev@gmail.com
-**
+
 
 Words from the developer: “Stay connected for updates and more helpful tools.
