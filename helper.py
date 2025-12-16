@@ -33,3 +33,15 @@ def get_input(command,data_type=str,error="Wrong Data...",num_check=False):
         print(e) 
 
 
+def clean():
+ """ 
+ This function helps to clear the screen 
+ based on your os type...
+ """
+ import os
+ if os.name=="nt": #Window 
+  os.system("cls")
+ else : 
+   os.system("clear")
+
+
