@@ -10,5 +10,4 @@ The helpers are used across mini-projects to simplify:
 This code is intentionally kept simple and interactive to support learning, experimentation, and revision. It is not intended to be a reusable or production-ready library.
 
 Author: Shivam Yadav  
-Instagram: @idocollab  
 Email: shivampy.dev@gmail.com
